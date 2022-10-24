@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Know me - Samrudh!</title>
+  <link rel="stylesheet" href="indstyle.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e4ed2c37c1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+       <img src="logo.png" class="logo" alt="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Achievements</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </div>
+    <div class="header-text">
+      <p>12<sup>th</sup> Grader</p>
+      <h1>I'm <span>Samrudh</span> a freek of <br> Computer Technology and <br> Astronomy</h1>
+    </div>
+  </div>
+  <!-- about -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="abt-col-1">
+          <img src="mypic-modified2.png" alt="mypic">
+        </div>
+        <div class="abt-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am Samrudh, I am from India. I am an aspiring ethical hacker. Has a lot of interest in Astronomy and may pursive a dual degree of that also. BTW nice to see you. I am happy to connect with you!</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--external links-->
+    <!--<div id="services">
+      <div class="container">
+        <h1 class="sub-title">Know More!!</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-laptop-file"></i>
+            <h2>Works and Achievements</h2>
+            <p>You can check my works and achievements in this section. You can also download the certificates. Get Inspired!!</p>
+            <a href="">Works</a>
+          </div>
+          <div>
+            <i class="fa-regular fa-file-user"></i>
+            <h2>Resume</h2>
+            <p>You can view my resume and download it. Please be free to suggest the corrections.</p>
+            <a href="">Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>-->
+    <!--Portfolio-->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Insight of my works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="work1.png">
+            <div class="layer">
+              <h3>Works and achievements</h3>
+              <p>You can check my works and achievements in this section. You can also download the certificates. Get Inspired!!</p>
+              <a href="um.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="workk22.png">
+            <div class="layer">
+              <h3>Resume</h3>
+              <p>You can view my resume and download it. Please be free to suggest the corrections.</p>
+              <a href="um.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+          </div>
+        </div>
+        <a href="um.html" class="btn">See More</a>
+      </div>
+    </div>
+
+<!-- Contact -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p ><i  class="fa-solid fa-envelope"></i>   samrdhvvandakudri2005@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>  2200220022</p>
+        <div class="social-icons">
+          <a href="um.html"><i class="fa-brands fa-instagram"></i></a>
+          <a href="um.html"><i class="fa-brands fa-telegram"></i></a>
+          <a href="um.html"><i class="fa-brands fa-facebook"></i></a>
+          <a href="um.html"><i class="fa-brands fa-twitter"></i></a>
+          <a href="um.html"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form class="" action="mailto:samrudhvvandakudri2005@gmail.com" method="post" enctype="text/plain">
+          <input type="text" name="Name" placeholder="Under maintenance" required>
+          <input type="email" name="Email" placeholder="Under maintenance" required>
+          <textarea name="Message" rows="8" placeholder="Under maintenance"></textarea>
+          <button type="button" class="bttn" name="button">Check Transitions</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="Copyright">
+    <p>Copyright <i class="fa-regular fa-copyright"></i> Samrudh </p>
+  </div>
+</div>
+<script>
+  var sidemeu = document.getElementById("sidemenu");
+
+  function openmenu() {
+    sidemeu.style.right = "0" ;
+  }
+  function closemenu() {
+    sidemeu.style.right = " -250px" ;
+  }
+</script>
+</body>
+
+</html>
